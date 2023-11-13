@@ -1,0 +1,24 @@
+{
+  "name": "codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/near-operation-file-preset": "^2.5.0",
+    "@graphql-codegen/typescript": "4.0.1",
+    "@graphql-codegen/typescript-document-nodes": "4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@graphql-codegen/schema-ast": "^4.0.0",
+    "graphql": "^16.7.1"
+  }
+}
